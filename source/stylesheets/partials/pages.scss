@@ -1,0 +1,113 @@
+div#title {
+  @include span-columns(12);
+  @include omega;
+
+  h1 {
+    font-size: $title-text;
+    margin: 0.5em 0 0.25em 0;
+  }
+}
+
+div#teaser {
+  @include span-columns(7);
+}
+
+div#hot {
+  @include span-columns(5);
+  @include omega;
+
+  p {
+    margin: 0;
+  }
+
+  p.motto {
+    font-family: Dederon;
+    font-size: $bigger-text;
+    padding: 0 0 2em 0;
+    border-bottom: thin dashed $black;
+
+    span.signature {
+      display: block;
+      text-align: right;
+      margin: 1em 0 0 0;
+    }
+  }
+
+  .article {
+    padding: 1em 0 2em 0;
+    border-bottom: thin dashed $black;
+
+    div.date {
+      color: $grey;
+      text-align: right;
+    }
+
+    h4 {
+      display: inline;
+      margin: 0.67em 0;
+    }
+
+    a {
+      padding: 0 0 0 2em;
+      text-decoration: none;
+
+      &:hover {
+        padding: 0 0 0 (2em - em(17));
+        &:before { content:  "\2192\ ";  }
+      }
+
+    }
+
+    &:last-child {
+      border: none;
+    }
+
+  }
+}
+
+div#sections {
+  @include outer-container;
+  clear: both;
+  padding: 0 0 4em 0;
+
+  a.section {
+    text-decoration: none;
+    color: $black;
+
+    @include span-columns(3);
+    &:hover { @include linear-gradient($blue 150px, $white 150px, $white 330px, $green 8px); }
+
+    p, h3 {
+      padding: 3px;
+    }
+  }
+}
+
+#big-partners {
+  @include outer-container;
+
+    .partner {
+      @include span-columns(6);
+      @include omega;
+      margin: 0 0 4em 0;
+    }
+}
+
+#detail {
+  @include outer-container;
+  margin: 0 0 4em 0;
+
+  .picture {
+    @include span-columns(7);
+  }
+
+  .text {
+    @include span-columns(5);
+
+    p:first-child {
+      margin: 0 0 1em 0;
+    }
+  }
+}
+
+

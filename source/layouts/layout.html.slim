@@ -32,15 +32,25 @@ html.nojs
         a<> href="http://browsehappy.com/" upgrade your browser
         | to improve your experience.
 
-    header
-      h1 Wrabec
-      ul#main-menu
-        li Partneři
-        li O nás
-        li Novinky
-        li Kontakt
+    div class="header-row"
+      header
+        a href="/"
+          h1 Wrabec
+        section#menu
+          a href="/about.html" O nás
+          a href="/new.html" Novinky
+          a href="/contact.html" Kontakt
+          a href="/partners.html" Partneři
 
-    == yield
+    div class="main-row"
+      div class="main-content"
+        div id="title"
+          h1 = current_page.data.title
+        == yield
 
     = javascript_include_tag 'app'
     = partial 'partials/_ga'
+
+footer
+  div class="copyright"
+    | Copyright  © 2013 Wrabec
