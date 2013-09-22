@@ -1,0 +1,48 @@
+$small-title-text: 48px;
+
+div.blog {
+  padding: 0 0 4em 0;
+  div#title {
+    h1 {
+      font-size: $small-title-text;
+      margin: 2em 0 0.5em 0;
+    }
+  }
+}
+
+article {
+  @include outer-container;
+
+  div.text {
+    @include span-columns(8);
+
+    h2 {
+      font-size: $bigger-text;
+
+      a {
+        @include span-columns(6 of 8);
+        padding: 0 0 0 1.1em;
+
+        &:hover {
+          padding: 0;
+          &:before { content:  "\2192\ ";  }
+        }
+      }
+
+      time {
+        @include span-columns(2 of 8);
+        @include omega;
+      }
+    }
+
+    p {
+      @include span-columns(8 of 8);
+        @include omega;
+    }
+  }
+
+  img {
+    @include span-columns(4);
+  }
+}
+

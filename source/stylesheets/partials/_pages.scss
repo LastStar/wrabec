@@ -10,6 +10,11 @@ div#title {
 
 div#teaser {
   @include span-columns(7);
+
+  img {
+    width: 540px;
+    height: 670px;
+  }
 }
 
 div#hot {
@@ -21,10 +26,8 @@ div#hot {
   }
 
   p.motto {
-    font-family: Dederon;
     font-size: $bigger-text;
-    padding: 0 0 2em 0;
-    border-bottom: thin dashed $black;
+    padding: 0 0 0.5em 0;
 
     span.signature {
       display: block;
@@ -33,35 +36,41 @@ div#hot {
     }
   }
 
-  .article {
-    padding: 1em 0 2em 0;
-    border-bottom: thin dashed $black;
+  div.blog {
+    padding: 0;
 
-    div.date {
-      color: $grey;
-      text-align: right;
+    h3 {
+      margin: 0.5em 0 0 0;
     }
 
-    h4 {
-      display: inline;
-      margin: 0.67em 0;
-    }
+    article {
+      padding: 1em 0 1.5em 0;
+      border-bottom: thin dashed $black;
 
-    a {
-      padding: 0 0 0 2em;
-      text-decoration: none;
-
-      &:hover {
-        padding: 0 0 0 (2em - em(17));
-        &:before { content:  "\2192\ ";  }
+      time {
+        display: block;
+        color: $grey;
+        text-align: right;
       }
 
-    }
+      h4 {
+        margin: 0.67em 0;
+      }
 
-    &:last-child {
-      border: none;
-    }
+      a {
+        padding: 0 0 0 2em;
 
+        &:hover {
+          padding: 0 0 0 (2em - em(17));
+          &:before { content:  "\2192\ ";  }
+        }
+
+      }
+
+      &:last-child {
+        border: none;
+      }
+    }
   }
 }
 
@@ -71,11 +80,11 @@ div#sections {
   padding: 0 0 4em 0;
 
   a.section {
-    text-decoration: none;
     color: $black;
+  padding: 0 0 1em 0;
 
     @include span-columns(3);
-    &:hover { @include linear-gradient($blue 150px, $white 150px, $white 330px, $green 8px); }
+    &:hover { @include linear-gradient($blue 40%, $white 40%, $white 96%, $green 96%); }
 
     p, h3 {
       padding: 3px;
@@ -111,3 +120,15 @@ div#sections {
 }
 
 
+div.vcard {
+  @include span-columns(3);
+
+  div.adr {
+    margin: 1em 0 0 0;
+  }
+
+  .fn {
+    font-size: $bigger-text;
+    margin: 0 0 1em 0;
+  }
+}

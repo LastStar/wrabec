@@ -1,5 +1,5 @@
 ---
-title: 'Wrabec'
+title: 'Wrabec Liberec'
 ---
 div id="teaser"
   img src="http://placehold.it/540x670"
@@ -9,40 +9,19 @@ div id="hot"
     |  pozorované. Obličejové připadá psychologických mluvený vodě: pravidelnými
     |  po mne mlčky třetí tvor: škrtilo no čuch drtivě s baterku, fuj ni vytápí.
     span class="signature" Rudolf Steiner
-  div class="article"
-    h4
-      a href="#" Jak jsem neběhali
-    p
-      | Mu znal oč širší parníky lesy. Pes pakáž a mění poklidit k nuda mít
-      | nechoď klada známe nepoklonil břidlicově. Mé ti připomínat všechnu.
-    div class="date" 24. 1. 2013
-  div class="article"
-    h4
-      a href="#" Domovní sněm na trať
-    p
-      | Hnutí ať autoři popsat dostaly nastartování vysoká lesy reliéfu
-      |  pozorované. Obličejové připadá psychologických mluvený vodě: pravidelnými
-      |  znovu zrnko.
-    div class="date" 27. 1. 2013
-  div class="article"
-    h4
-      a href="#" Lesní požářiště
-    p
-      | Center urychlovači o dá 1 světa tetované o zdroj teorii šestý zdejších,
-      |  kořist obdělávání, vidět mi jednotlivými skvělé technologii výsluní k
-      |  divné.
-    div class="date" 29. 1. 2013
-  div class="article"
-    h4
-      a href="#" Nevíme jak se k tomu přestaví
-    p
-      | Obličejové připadá psychologických mluvený vodě: pravidelnými
-      |  Hnutí ať autoři popsat dostaly nastartování vysoká lesy reliéfu
-      |  pozorované.
-    div class="date" 2. 2. 2013
+
+  div class="blog"
+    h3
+      a href="/blog" Z blogu
+    - blog.articles[0...3].each do |article|
+      article
+        h4
+          a href=article.url = article.title
+        = article.summary
+        time = article.date.strftime('%Y-%m-%d')
 
 div id="sections"
-  h1 Rozcestík
+  h2 Co na našich stránkách můžete naleznout
   a href="/about.html" class="section"
     img src="http://placehold.it/221x140"
     h3 O nás
@@ -50,9 +29,9 @@ div id="sections"
       | Čísle specifickou zřejmě zůstává nálada s podnikl sám nyní o kolize
       | ochotným centrem nižší souvisela, konče stát dochází ty nevadí jednu
       | sloní pochopila, polarizovaného velkým z ohrožení neprodyšně.
-  a href="/news.html" class="section"
+  a href="/blog" class="section"
     img src="http://placehold.it/221x140"
-    h3 Novinky
+    h3 Blog
     p
       | Hnutí ať autoři popsat dostaly nastartování vysoká lesy reliéfu
       | pozorované. Obličejové připadá apod: psychologických mluvený vodě:

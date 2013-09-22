@@ -18,6 +18,7 @@ gem "middleman-neat", "~> 0.0.4"
 
 # Blogging
 gem "middleman-blog"
+gem "nokogiri"
 
 # XML Feeds
 gem "builder", "~> 3.0.0"

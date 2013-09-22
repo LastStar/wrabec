@@ -25,6 +25,7 @@ ignore '/calendar.html'
 ######################################################################
 # Blog settings.
 ######################################################################
+page "/blog/*", :layout => "blog"
 
 Time.zone = "Prague"
 
@@ -33,7 +34,7 @@ activate :blog do |blog|
   blog.permalink = ':year/:title.html'
   # blog.sources = ":year-:month-:day-:title.html"
   blog.taglink = "tags/:tag.html"
-  # blog.layout = "layout"
+  blog.layout = "blog"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = ":year.html"
@@ -51,6 +52,7 @@ end
 
 # Enable XML feed. Don't forget to edit feed.xml.builder first.
 # page "/feed.xml", :layout => false
+
 
 
 ######################################################################

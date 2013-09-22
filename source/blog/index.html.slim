@@ -1,0 +1,16 @@
+---
+title: 'Co je nového'
+---
+
+- blog.articles[0...5].each do |article|
+
+  article
+    div class='text'
+      h2
+        a href=article.url = article.title
+        time = article.date.strftime('%Y-%m-%d')
+
+      = article.summary
+
+    img src=article.data.img
+

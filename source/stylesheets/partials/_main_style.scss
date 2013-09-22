@@ -13,8 +13,21 @@ h1, h2, h3, h4 {
   font-family: Dederon;
 }
 
+h1 {
+  font-size: $title-text;
+}
+
+h2 {
+  font-size: $small-title-text;
+}
+
+h3 {
+  font-size: $bigger-text;
+}
+
 a {
   color: $blue;
+  text-decoration: none;
 }
 
 
@@ -28,7 +41,7 @@ div.header-row {
 
   header {
     @include outer-container;
-    padding: em(6) 0;
+    padding: 1em 0;
 
     h1 {
       color: $white;
@@ -36,18 +49,18 @@ div.header-row {
       font-size: $bigger-text;
       margin:  0px auto;
       font-weight: bold;
-      @include span-columns(2);
+      @include span-columns(3);
     }
 
     section#menu {
-      @include span-columns(10);
+      @include span-columns(9);
       float: left;
       font-size: $text;
       text-align: right;
+      margin: 0.5em 0 0 0;
 
       a {
         color: $white;
-        text-decoration: none;
         display: inline-block;
         padding: 1px 1px 1px 2em;
 
@@ -71,7 +84,7 @@ div.main-row {
 footer {
   background-color: $green;
   color: $white;
-  padding: em(6) 0 8em;
+  padding: em(6) 0 4em;
   text-align: center;
 
   div.copyright {
@@ -79,4 +92,10 @@ footer {
   }
 }
 
+@include media(new-breakpoint(max-width 768px)) {
+  div.teaser img {
+    width: 400px;
+    height: 496px;
+  }
+}
 

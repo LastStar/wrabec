@@ -24,7 +24,7 @@ html.nojs
     / Consider a custom Modernizr build.
     = javascript_include_tag 'vendor/modernizr-2.x.js'
 
-  body
+  body class='blog'
     /[if lte IE 7]
       / Ancient browser notice.
       p.browsehappy
@@ -32,17 +32,16 @@ html.nojs
         a<> href="http://browsehappy.com/" upgrade your browser
         | to improve your experience.
 
+
     div class="header-row"
       header
-        a href="/"
-          h1 Wrabec
+        a href="/blog"
+          h1 Wrabčí blog
         section#menu
-          a href="/about.html" O nás
-          a href="/blog" Blog
+          a href="/" Domů
           a href="/contact.html" Kontakt
-          a href="/partners.html" Partneři
 
-    div class="main-row"
+    div class="blog main-row"
       div class="main-content"
         div id="title"
           h1 = current_page.data.title

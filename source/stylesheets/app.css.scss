@@ -10,11 +10,16 @@ $green: rgb(169, 228, 114);
 
 // sizes
 $text: 14px;
-$bigger-text: 16px;
-$title-text: 96px;
+$small-text: golden-ratio($text, -1);
+$bigger-text: golden-ratio($text, 1);
+$small-title-text: golden-ratio($text, 2);
+$title-text: golden-ratio($text, 4);
 
 // Main general styles
 @import 'partials/main_style';
+
+// Blog specific styles
+@import 'partials/blog';
 
 // Pages specific styles
 @import 'partials/pages';
