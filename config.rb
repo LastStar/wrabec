@@ -83,5 +83,5 @@ configure :build do
   #
   # Change to your Google Analytics key (e.g. UA-XXXXX-Y)
   # To disable GA, leave unset or set to nil
-  set :ga_key, nil
+  set :ga_key, 'UA-44247687-1'
 end
