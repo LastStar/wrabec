@@ -35,6 +35,8 @@ a {
 
 img {
   border-radius: 3%;
+  width: 100%;
+  height: 100%;
 }
 
 div.header-row {
@@ -103,13 +105,6 @@ footer {
 
   div.copyright {
     @include outer-container;
-  }
-}
-
-@include media(new-breakpoint(max-width 768px)) {
-  div.teaser img {
-    width: 400px;
-    height: 496px;
   }
 }
 

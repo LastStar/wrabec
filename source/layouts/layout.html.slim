@@ -43,9 +43,8 @@ html.nojs
           a href="/partners" Partneři
 
     div class="main-row"
-      div class="main-content"
-        div id="title"
-          h1 = current_page.data.title
+      div id="title"
+        h1 = current_page.data.title
         == yield
 
     = javascript_include_tag 'app'
