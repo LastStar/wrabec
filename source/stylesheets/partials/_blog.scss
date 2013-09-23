@@ -12,6 +12,7 @@ div.blog {
 
 article {
   @include outer-container;
+  padding: 0.33em;
 
   div.text {
     @include span-columns(8);
@@ -21,12 +22,6 @@ article {
 
       a {
         @include span-columns(6 of 8);
-        padding: 0 0 0 1.1em;
-
-        &:hover {
-          padding: 0;
-          &:before { content:  "\2192\ ";  }
-        }
       }
 
       time {

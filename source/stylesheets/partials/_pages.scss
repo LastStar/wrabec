@@ -1,19 +1,9 @@
-div#title {
-  @include span-columns(12);
-  @include omega;
-
-  h1 {
-    font-size: $title-text;
-    margin: 0.5em 0 0.25em 0;
-  }
-}
-
 div#teaser {
   @include span-columns(7);
 
   img {
     width: 540px;
-    height: 670px;
+    height: 540px;
   }
 }
 
@@ -40,31 +30,34 @@ div#hot {
     padding: 0;
 
     h3 {
-      margin: 0.5em 0 0 0;
+      margin: 1.5em 0 0 0;
     }
 
     article {
       padding: 1em 0 1.5em 0;
-      border-bottom: thin dashed $black;
+      border-bottom: thin dashed $bottom-color;
 
       time {
+        @include span-columns(1 of 5);
         display: block;
-        color: $grey;
         text-align: right;
+        margin: 1em 0;
+        font-size: $small-text;
       }
 
       h4 {
-        margin: 0.67em 0;
+        @include span-columns(4 of 5);
+        margin: 0.33em 0;
       }
 
-      a {
-        padding: 0 0 0 2em;
+      div.head {
+        @include row;
+        font-family: Dederon;
+      }
 
-        &:hover {
-          padding: 0 0 0 (2em - em(17));
-          &:before { content:  "\2192\ ";  }
-        }
-
+      div.body {
+        @include row;
+        @include span-columns(5 of 5);
       }
 
       &:last-child {
@@ -81,15 +74,22 @@ div#sections {
 
   a.section {
     color: $black;
-  padding: 0 0 1em 0;
+    padding: 0 0 1em 0;
 
     @include span-columns(3);
-    &:hover { @include linear-gradient($blue 40%, $white 40%, $white 96%, $green 96%); }
+    &:hover {
+      @include linear-gradient($white 32%, $top-color 40%, $white 40%, $white 96%, $bottom-color 96%);
+
+      &:after {
+        content: "";
+      }
+    }
 
     p, h3 {
       padding: 3px;
     }
   }
+
 }
 
 #big-partners {
@@ -99,6 +99,7 @@ div#sections {
       @include span-columns(6);
       @include omega;
       margin: 0 0 4em 0;
+
     }
 }
 

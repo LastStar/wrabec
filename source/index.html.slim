@@ -2,7 +2,7 @@
 title: 'Wrabec Liberec'
 ---
 div id="teaser"
-  img src="http://lorempixel.com/540/670/nature"
+  img src="http://lorempixel.com/540/540/nature"
 div id="hot"
   p class="motto"
     | Smát ber i esli seď. Věř důležitého, zašil, člun milá dá, mu
@@ -13,12 +13,14 @@ div id="hot"
   div class="blog"
     h3
       a href="/blog" Z blogu
-    - blog.articles[0...3].each do |article|
+    - blog.articles[0...2].each do |article|
       article
-        h4
-          a href=article.url = article.title
-        = article.summary
-        time = article.date.strftime('%Y-%m-%d')
+        div class="head"
+          h4
+            a href=article.url = article.title
+          time = article.date.strftime('%Y-%m-%d')
+        div class="body"
+          = article.summary
 
 div id="sections"
   h2 Co na našich stránkách můžete naleznout

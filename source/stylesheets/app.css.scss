@@ -1,19 +1,21 @@
+@import 'vendor/_normalize-2.x';
+
 @import 'bourbon';
 @import 'neat';
 
 // colors
-$blue: rgb(73, 153, 232);
+$top-color: rgb(204, 153, 0);
 $white: rgb(255, 255, 252);
-$grey: rgb(205, 205, 202);
-$black: rgb(55, 55, 52);
-$green: rgb(169, 228, 114);
+$black: rgb(51, 51, 0);
+$link-color: rgb(102, 51, 0);
+$bottom-color: rgb(204, 102, 0);
 
-// sizes
+// text sizes
 $text: 14px;
 $small-text: golden-ratio($text, -1);
 $bigger-text: golden-ratio($text, 1);
 $small-title-text: golden-ratio($text, 2);
-$title-text: golden-ratio($text, 4);
+$title-text: golden-ratio($text, 3);
 
 // Main general styles
 @import 'partials/main_style';

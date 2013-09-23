@@ -42,14 +42,13 @@ html.nojs
           a href="/contact" Kontakt
 
     div class="blog main-row"
-      div class="main-content"
-        div id="title"
-          h1 = current_page.data.title
-        == yield
+      div id="title"
+        h1 = current_page.data.title
+      == yield
 
     = javascript_include_tag 'app'
     = partial 'partials/_ga'
 
-footer
-  div class="copyright"
-    | Copyright  © 2013 Wrabec
+  footer
+    div class="copyright"
+      | Copyright  © 2013 Wrabec
