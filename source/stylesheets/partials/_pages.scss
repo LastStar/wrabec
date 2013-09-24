@@ -1,5 +1,7 @@
 div#teaser {
   @include span-columns(7);
+
+  padding: 0 0 1em 0;
 }
 
 div#hot {
@@ -13,7 +15,7 @@ div#hot {
   p.motto {
     font-size: $bigger-text;
     padding: 0 0 1em 0;
-    border-bottom: thin dashed $bottom-color;
+    border-bottom: thin solid $top-color;
 
     span.signature {
       display: block;
@@ -34,7 +36,7 @@ div#hot {
       border-bottom: thin dashed $bottom-color;
 
       time {
-        @include span-columns(1 of 5);
+        @include span-columns(2 of 5);
         display: block;
         text-align: right;
         margin: 1em 0;
@@ -42,7 +44,7 @@ div#hot {
       }
 
       h4 {
-        @include span-columns(4 of 5);
+        @include span-columns(3 of 5);
         margin: 0.33em 0;
       }
 
@@ -67,7 +69,7 @@ div#sections {
   @include outer-container;
   clear: both;
   padding: 1em 0 4em 0;
-  border-top: thin dashed $bottom-color;
+  border-top: thin solid $top-color;
 
   h3 {
     margin: 1em 0 0em 0;

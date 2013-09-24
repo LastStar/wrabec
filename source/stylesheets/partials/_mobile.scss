@@ -1,0 +1,67 @@
+$ipad-portrait: new-breakpoint(max-width 769px);
+$iphone-landscape: new-breakpoint(max-width 480px 4);
+
+@include media($ipad-portrait) {
+  div#hot {
+    p.motto {
+      font-size: $text;
+    }
+
+    div.blog {
+      h3 {
+        margin: 0.5em 0 0 0;
+      }
+
+      article {
+        padding: 1em 0 1em 0;
+      }
+    }
+  }
+}
+
+@include media($iphone-landscape) {
+  div.header-row {
+    header {
+      h1 {
+        font-size: $text;
+        @include span-columns(1);
+      }
+
+      section#menu {
+        @include span-columns(3);
+        margin: 0 0 0 0;
+
+        a {
+          font-size: $small-text;
+          padding: 0 1em 3px 0;
+        }
+      }
+    }
+  }
+
+
+  div.main-row {
+
+    div#title {
+
+      h1 {
+        font-size: $bigger-text;
+        margin: 2em 0 0.5em 0;
+      }
+    }
+  }
+
+  div#teaser {
+    @include span-columns(4);
+  }
+
+  div#hot {
+    @include span-columns(4);
+  }
+
+  div#sections {
+    a.section {
+      @include span-columns(4);
+    }
+  }
+}
