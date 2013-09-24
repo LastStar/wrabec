@@ -69,9 +69,8 @@ div#sections {
   padding: 1em 0 4em 0;
   border-top: thin dashed $bottom-color;
 
-  img {
-    width: 100%;
-    height: 100%;
+  h3 {
+    margin: 1em 0 0em 0;
   }
 
   a.section {
@@ -87,8 +86,9 @@ div#sections {
       }
     }
 
-    p, h3 {
+    p {
       padding: 3px;
+      margin: 0.67em 0 2em 0;
     }
   }
 
@@ -132,6 +132,10 @@ div.vcard {
 
   div.adr {
     margin: 1em 0 0 0;
+  }
+
+  .email {
+    margin: 0 0 1em 0;
   }
 
   .fn {
