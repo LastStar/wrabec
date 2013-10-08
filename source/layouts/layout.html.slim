@@ -34,7 +34,7 @@ html.nojs
 
     div class="header-row"
       header
-        a href="/"
+        a href="/" class="home"
           h1 Wrabec
         section#menu
           a href="/about" O nás
@@ -44,10 +44,12 @@ html.nojs
 
     div class="main-row"
       div id="title"
-        h1 = current_page.data.title
-        == yield
+        h1
+          = current_page.data.title
+      == yield
 
     = javascript_include_tag 'app'
+    = javascript_include_tag 'vendor/jquery-2.x.js'
     = partial 'partials/_ga'
 
 footer

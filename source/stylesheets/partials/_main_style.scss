@@ -29,7 +29,9 @@ a {
   color: $link-color;
   text-decoration: none;
   &:hover {
-    &:after { content:  "\ \2192";  }
+    &:after {
+      content:  "\ \25B8";
+    }
   }
 }
 
@@ -38,6 +40,16 @@ img {
   width: 100%;
   height: 100%;
 }
+
+hr {
+  @include span-columns(12);
+  border-top: thin solid $top-color;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin: 1em 0;
+}
+
 
 div.header-row {
   background-color: $top-color;
@@ -52,6 +64,10 @@ div.header-row {
     @include row;
     padding: 0.67em 0;
 
+    a.home:hover:after {
+      content: "";
+    }
+
     h1 {
       color: $white;
       float: left;
@@ -62,19 +78,19 @@ div.header-row {
     }
 
     section#menu {
-      @include span-columns(9);
+      @include span-columns(4);
+      @include shift(5);
       float: left;
       font-size: $text;
       text-align: right;
-      margin: 0.5em 0 0 0;
 
       a {
         color: $white;
-        display: inline-block;
-        padding: 1px 2em 1px 1px;
+        text-align: right;
+        padding: 0.5em 2em 0 0;
 
         &:hover {
-          padding: 1px 1em 1px 1px;
+          padding: 0.5em 1.3em 0 0;
         }
       }
     }
@@ -88,12 +104,10 @@ div.main-row {
   padding: 0 1em;
 
   div#title {
-    @include span-columns(12);
-    @include omega;
-
     h1 {
       font-size: $title-text;
       margin: 1em 0 0.25em 0;
+
     }
   }
 }

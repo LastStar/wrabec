@@ -68,8 +68,8 @@ div#hot {
 div#sections {
   @include outer-container;
   clear: both;
-  padding: 1em 0 4em 0;
-  border-top: thin solid $top-color;
+  height: 30em;
+
 
   h3 {
     margin: 1em 0 0em 0;
@@ -77,11 +77,10 @@ div#sections {
 
   a.section {
     color: $black;
-    padding: 0 0 1em 0;
 
     @include span-columns(3);
     &:hover {
-      @include linear-gradient($white 32%, $top-color 40%, $white 40%, $white 96%, $bottom-color 96%);
+      @include linear-gradient($white 36%, $top-color 42%, $white 40%, $white 96%, $bottom-color 96%);
 
       &:after {
         content: "";
@@ -126,22 +125,23 @@ div#sections {
       margin: 0 0 1em 0;
     }
   }
+
+  div.vcard {
+    @include span-columns(3);
+
+    div.adr {
+      margin: 1em 0 0 0;
+    }
+
+    .email {
+      margin: 0 0 1em 0;
+    }
+
+    .fn {
+      font-size: $bigger-text;
+      margin: 0 0 1em 0;
+    }
+  }
 }
 
 
-div.vcard {
-  @include span-columns(3);
-
-  div.adr {
-    margin: 1em 0 0 0;
-  }
-
-  .email {
-    margin: 0 0 1em 0;
-  }
-
-  .fn {
-    font-size: $bigger-text;
-    margin: 0 0 1em 0;
-  }
-}
