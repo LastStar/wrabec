@@ -1,5 +1,6 @@
 ---
 title: 'Wrabec Liberec'
+posts_count: 3
 ---
 div id="teaser"
   img src="http://lorempixel.com/540/540/nature"
@@ -11,7 +12,7 @@ div id="hot"
   div class="blog"
     h3
       a href="/blog" Z blogu
-    - blog.articles[0...2].each do |article|
+    - blog.articles[0...current_page.data.posts_count].each do |article|
       article
         div class="head"
           h4
