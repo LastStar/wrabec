@@ -1,9 +1,9 @@
 ---
-title: 'První blog'
+title: 'Stanovy podepsány'
 img: 'http://lorempixel.com/400/200/nature'
 ---
 
-Toto je úplně první příspěvek do našeho blogu.
+Začátkem září zakládající členové občanského sdružení Wrabec podepsali stanovy OS a odeslali je na příslušné úřady.
 
 READMORE
 
