@@ -31,3 +31,6 @@ gem "middleman-syntax"
 
 # Crush dems images
 gem "middleman-imageoptim", "~> 0.0.4"
+
+# JavaScript runtime
+gem 'therubyracer'
