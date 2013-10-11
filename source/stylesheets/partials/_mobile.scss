@@ -2,6 +2,18 @@ $ipad-portrait: new-breakpoint(max-width 769px);
 $iphone-landscape: new-breakpoint(max-width 480px 4);
 
 @include media($ipad-portrait) {
+  a:hover:after {
+    content: "";
+  }
+
+  div.main-row {
+    div#title {
+      h1 {
+        font-size: $small-title-text;
+      }
+    }
+  }
+
   div#hot {
     p.motto {
       font-size: $text;
@@ -18,6 +30,18 @@ $iphone-landscape: new-breakpoint(max-width 480px 4);
     }
   }
 
+  div#sections {
+    a.section {
+      @include span-columns(6);
+      @include omega;
+
+      &:hover {
+        padding: 0.5em 2em 0 0;
+        background: none;
+      }
+    }
+  }
+
   #detail {
     .picture {
       @include span-columns(12);
@@ -26,6 +50,23 @@ $iphone-landscape: new-breakpoint(max-width 480px 4);
     .text {
       @include span-columns(12);
 
+    }
+
+    div.vcard {
+      @include span-columns(6);
+      @include omega;
+
+      @include pad(2em default);
+    }
+  }
+
+  #big-partners {
+    .partner {
+      @include pad(0.5em 0 1em 0.5em);
+
+      h2 {
+        font-size: $bigger-text;
+      }
     }
   }
 }
@@ -44,20 +85,17 @@ $iphone-landscape: new-breakpoint(max-width 480px 4);
 
         a {
           font-size: $small-text;
-          padding: 0 1em 3px 0;
+          @include pad(0 0.67em 0.25em 0);
         }
       }
     }
   }
 
-
   div.main-row {
-
     div#title {
-
       h1 {
         font-size: $bigger-text;
-        margin: 2em 0 0.5em 0;
+        @include pad(2em 0 0.5em 0);
       }
     }
   }
@@ -82,7 +120,14 @@ $iphone-landscape: new-breakpoint(max-width 480px 4);
 
   #big-partners {
     .partner {
-      @include span-columns(12);
+      @include span-columns(4);
+    }
+  }
+
+  #detail {
+    div.vcard {
+      @include span-columns(3);
+      @include shift(1);
     }
   }
 }

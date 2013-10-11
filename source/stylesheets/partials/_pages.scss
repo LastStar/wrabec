@@ -76,9 +76,9 @@ div#sections {
   }
 
   a.section {
+    @include span-columns(3);
     color: $black;
 
-    @include span-columns(3);
     &:hover {
       @include linear-gradient($white 36%, $top-color 42%, $white 40%, $white 96%, $bottom-color 96%);
 
@@ -101,7 +101,7 @@ div#sections {
   .partner {
     @include span-columns(6);
     @include omega;
-    margin: 0 0 4em 0;
+    @include pad(1em 0.5em 3em 1em);
 
     img {
       width: 95%;
