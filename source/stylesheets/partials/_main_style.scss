@@ -52,12 +52,14 @@ hr {
 
 
 div.header-row {
+  @include linear-gradient($bottom-color 1%, $top-color 98%, $top-color 99%, $bottom-color 100%);
   background-color: $top-color;
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
   padding: 0 1em;
+  box-shadow: $black 0 0.125em 0.67em;
 
   header {
     @include outer-container;
@@ -115,6 +117,7 @@ div.main-row {
 
 footer {
   background-color: $bottom-color;
+  @include linear-gradient($top-color 2%, $bottom-color 98%, $black 100%);
   color: $white;
   padding: em(6) 0 4em;
   text-align: center;
