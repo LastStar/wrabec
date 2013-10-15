@@ -80,7 +80,7 @@ div#sections {
     color: $black;
 
     &:hover {
-      @include linear-gradient($white 36%, $top-color 42%, $white 40%, $white 96%, $bottom-color 96%);
+      @include linear-gradient($white 36%, $bottom-color 42%, $white 40%, $white 96%, $top-color 96%);
 
       &:after {
         content: "";
