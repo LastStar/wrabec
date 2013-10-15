@@ -68,7 +68,6 @@ div#hot {
 div#sections {
   @include outer-container;
   clear: both;
-  height: 10em;
 
 
   h3 {
@@ -80,16 +79,23 @@ div#sections {
     color: $black;
 
     &:hover {
-      @include linear-gradient($white 36%, $bottom-color 42%, $white 40%, $white 96%, $top-color 96%);
+      @include linear-gradient($white 5%, $top-color 39%, $bottom-color 41%, $white 41%,
+        $white 96%, $bottom-color 96%, $top-color 99%, $top-color 100%);
 
       &:after {
         content: "";
       }
     }
 
+    img {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
     p {
       padding: 3px;
       margin: 0.67em 0 2em 0;
+      height: 10em;
     }
   }
 
