@@ -1,5 +1,5 @@
 ---
-title: 'První setkání waldorfské iniciativy Liberec'
+title: 'První setkání'
 img: 'http://lorempixel.com/400/200/nature'
 ---
 
