@@ -1,5 +1,5 @@
 ---
-title: 'Návštěva Wlaštovky v Karlových Varech'
+title: 'Wrabec návštívil Wlaštovku'
 img: 'http://lorempixel.com/400/200/nature'
 ---
 
