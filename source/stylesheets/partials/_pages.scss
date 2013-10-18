@@ -79,8 +79,8 @@ div#sections {
     color: $black;
 
     &:hover {
-      @include linear-gradient($white 5%, $top-color 39%, $bottom-color 41%, $white 41%,
-        $white 96%, $bottom-color 96%, $top-color 99%, $top-color 100%);
+      @include linear-gradient($white 5%, $top-color 39%, $top-color 41%, $white 41%,
+        $white 96%, $top-color 96%, $top-color 100%);
 
       &:after {
         content: "";
