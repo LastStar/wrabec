@@ -1,5 +1,5 @@
 ---
-title: 'Pozvánka na přednášku v Lesmíru'
+title: 'Pozvánka na přednášku'
 img: 'http://lorempixel.com/400/200/nature'
 ---
 
