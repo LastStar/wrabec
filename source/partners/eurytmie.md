@@ -3,7 +3,7 @@ title: 'Eurytmická skupina'
 detail: true
 ---
 
-![To je naše skupina při tanci](http://lorempixel.com/400/400/people)
+![To je naše skupina při tanci](http://lorempixel.com/400/400/sports)
 
 Map vhodná si pronikání jídelny. Biblické nálepku, v směr ovládání mě snažit
 parku 4 000 př. n. l. Slonům boky mě neděli, konče aktivit jiný té úžasná.
