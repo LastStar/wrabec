@@ -1,5 +1,6 @@
 ---
-title: 'Podzimní slavnost stromů v Lesmíru'
+title: 'Podzimní slavnost stromů'
+img: 'http://lorempixel.com/400/200'
 ---
 
 Ve středu 16.10.2013 jsme oslavili rozpuk podzimu na Slavnosti stromů.
