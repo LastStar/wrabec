@@ -121,11 +121,9 @@ div#sections {
 }
 
 #detail {
-  p:nth-child(2) {
-    @include span-columns(6);
-  }
+  @include pad(0 default 2em default);
 
-  p:nth-child(n+3) {
+  p:nth-child(n+2) {
     @include pad(0 0.5em);
     @include span-columns(6);
     @include omega;

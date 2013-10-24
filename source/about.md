@@ -3,7 +3,7 @@ title: 'O nás'
 detail: true
 ---
 
-![Takhle teď vypadáme](http://lorempixel.com/400/200/people)
+![Takhle teď vypadáme](http://lorempixel.com/400/400/people)
 
 Map vhodná si pronikání jídelny. Biblické nálepku, v směr ovládání mě snažit
 parku 4 000 př. n. l. Slonům boky mě neděli, konče aktivit jiný té úžasná.
