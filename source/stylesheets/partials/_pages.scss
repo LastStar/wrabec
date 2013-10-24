@@ -113,23 +113,22 @@ div#sections {
       width: 95%;
       height: 95%;
     }
+
+    h2 {
+      font-size: $bigger-text;
+    }
   }
 }
 
 #detail {
-  @include outer-container;
-  margin: 0 0 4em 0;
-
-  .picture {
-    @include span-columns(7);
+  p:nth-child(2) {
+    @include span-columns(6);
   }
 
-  .text {
-    @include span-columns(5);
-
-    p:first-child {
-      margin: 0 0 1em 0;
-    }
+  p:nth-child(n+3) {
+    @include pad(0 0.5em);
+    @include span-columns(6);
+    @include omega;
   }
 
   div.vcard {

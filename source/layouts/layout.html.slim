@@ -42,7 +42,7 @@ html.nojs
           a href="/contact" Kontakt
           a href="/partners" Partneři
 
-    div class="main-row"
+    div class="main-row" id=(current_page.data.detail ? "detail" : "")
       div id="title"
         h1
           = current_page.data.title
