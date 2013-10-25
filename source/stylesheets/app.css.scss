@@ -5,7 +5,7 @@
 
 // colors
 $top-color: rgb(204, 153, 0);
-$white: rgb(255, 245, 232);
+$white: rgb(255, 253, 242);
 $black: rgb(51, 51, 0);
 $link-color: rgb(102, 51, 0);
 $bottom-color: rgb(204, 102, 0);
@@ -17,8 +17,8 @@ $bigger-text: golden-ratio($text, 1);
 $small-title-text: golden-ratio($text, 2);
 $title-text: golden-ratio($text, 3);
 
-@include font-face(DederonSans, "Dederon_Sans_Light", normal);
-@include font-face(Katarine, "Katarine_Semibold", bold);
+@include font-face(DederonSansLight, "Dederon_Sans_Light", normal);
+@include font-face(KatarineSemi, "Katarine_Semibold", bold);
 
 // Main general styles
 @import 'partials/main_style';
