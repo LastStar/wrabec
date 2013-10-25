@@ -1,6 +1,3 @@
-@include font-face(DederonSans, "Dederon_Sans_Light", normal);
-@include font-face(Dederon, "Dederon_Serif_Semibold", bold);
-
 body {
   background: $white;
   color: $black;
@@ -10,7 +7,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: Dederon;
+  font-family: Katarine;
 }
 
 h1 {
