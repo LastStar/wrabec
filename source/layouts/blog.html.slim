@@ -10,19 +10,7 @@ doctype html
 | <!--[if (gt IE 9)|!(IE)]<!-->
 html.nojs
   | <!--<![endif]-->
-  head
-    meta charset="utf-8"
-    meta http-equiv="X-UA-Compatible" content="IE=edge"
-    title = current_page.data.title
-    meta name="description" content="Waldorfská iniciativa Liberec"
-    meta name="viewport" content="width=device-width, initial-scale=1"
-
-    / Place favicon.ico and apple-touch-icon.png in the root directory.
-
-    = stylesheet_link_tag 'app'
-
-    / Consider a custom Modernizr build.
-    = javascript_include_tag 'vendor/modernizr-2.x.js'
+  = partial 'partials/_head'
 
   body class='blog'
     /[if lte IE 7]
@@ -43,15 +31,8 @@ html.nojs
           a href="/contact" Kontakt
 
     div class="blog main-row"
-      div id="title"
-        h1
-          = current_page.data.title
+      = partial 'partials/_title'
+
       == yield
 
-    = javascript_include_tag 'app'
-    = javascript_include_tag 'vendor/_jquery-2.x.js'
-    = partial 'partials/_ga'
-
-  footer
-    div class="copyright"
-      | Copyright  © 2013 Wrabec
+    = partial 'partials/_footer'
