@@ -36,8 +36,11 @@ $iphone-landscape: new-breakpoint(max-width 480px 4);
       @include omega;
 
       &:hover {
-        padding: 0.5em 2em 0 0;
         background: none;
+      }
+
+      p {
+        height: auto;
       }
     }
   }
@@ -55,8 +58,6 @@ $iphone-landscape: new-breakpoint(max-width 480px 4);
     div.vcard {
       @include span-columns(6);
       @include omega;
-
-      @include pad(2em default);
     }
   }
 
@@ -72,20 +73,29 @@ $iphone-landscape: new-breakpoint(max-width 480px 4);
 }
 
 @include media($iphone-landscape) {
+  a:hover:after {
+    content: "" !important;
+  }
+
   div.header-row {
     header {
       h1 {
         font-size: $text;
-        @include span-columns(1);
+        @include span-columns(2);
       }
 
       section#menu {
-        @include span-columns(3);
+        @include pad(0);
+        @include span-columns(2);
         margin: 0 0 0 0;
 
         a {
           font-size: $small-text;
-          @include pad(0 0.67em 0.25em 0);
+          @include pad(0 0 0.5em 0.5em);
+
+          &:hover {
+            @include pad(0 0 0.5em 0.5em);
+          }
         }
       }
     }
@@ -125,9 +135,56 @@ $iphone-landscape: new-breakpoint(max-width 480px 4);
   }
 
   #detail {
+    p:nth-child(n+2) {
+      @include span-columns(4);
+    }
+
     div.vcard {
-      @include span-columns(3);
-      @include shift(1);
+      @include span-columns(4);
+
+      .fn {
+        height: 2em;
+      }
+
+      .adr {
+        margin: 0.5em 0 0 0;
+      }
+    }
+  }
+
+  .blog.main-row {
+    article {
+      div.text {
+        @include span-columns(4);
+
+        h2 {
+          font-size: $text;
+
+          a {
+            @include span-columns(3 of 4);
+          }
+
+          time {
+            @include span-columns(1 of 4);
+            font-size: $text;
+            @include omega;
+          }
+        }
+
+        p {
+          @include span-columns(4 of 4);
+          @include omega;
+        }
+      }
+
+      img {
+        @include span-columns(4);
+      }
+
+    }
+
+    footer {
+      @include span-columns(4);
     }
   }
 }
