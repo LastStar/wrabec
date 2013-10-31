@@ -1,43 +1,39 @@
 $small-title-text: 48px;
 
-div.blog {
-  padding: 0 0 4em 0;
-  div#title {
-    h1 {
-      font-size: $small-title-text;
-      margin: 2em 0 0.5em 0;
-    }
-  }
-}
+.blog.main-row {
+  article {
+    @include outer-container;
+    padding: 0.33em;
 
-article {
-  @include outer-container;
-  padding: 0.33em;
+    div.text {
+      @include span-columns(8);
 
-  div.text {
-    @include span-columns(8);
+      h2 {
+        font-size: $bigger-text;
 
-    h2 {
-      font-size: $bigger-text;
+        a {
+          @include span-columns(6 of 8);
+        }
 
-      a {
-        @include span-columns(6 of 8);
+        time {
+          @include span-columns(2 of 8);
+          @include omega;
+        }
       }
 
-      time {
-        @include span-columns(2 of 8);
+      p {
+        @include span-columns(8 of 8);
         @include omega;
       }
     }
 
-    p {
-      @include span-columns(8 of 8);
-        @include omega;
+    img {
+      @include span-columns(4);
     }
-  }
 
-  img {
-    @include span-columns(4);
+    &:last-child {
+      margin-bottom: 2em;
+    }
   }
 }
 

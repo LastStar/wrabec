@@ -44,7 +44,8 @@ html.nojs
 
     div class="blog main-row"
       div id="title"
-        h1 = current_page.data.title
+        h1
+          = current_page.data.title
       == yield
 
     = javascript_include_tag 'app'
