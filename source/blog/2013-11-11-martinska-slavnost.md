@@ -14,4 +14,3 @@ Na kraji lesa na nás bude čekat Sv. Martin na bílém koni a povede průvod na
 Děti ze školky budou čekat v místě srazu i se svými lucerničkami, které po celý týden vyrábí ve školce. My ostatní si přineseme lucerničky a svíčky sebou. Je dobré si vzít s sebou pro případ nouze baterku či čelovku, ale průvod za svitu lucerniček je krásný, tak abychom nešli za svitu čelovek :-). Protože slavnost nebude na zahradě školky, doporučujeme vzít si na slavnost termosku s čajem a svačinu pro děti, cesta je dlouhá a bude už asi velká zima. Dobře se oblečte :-).
 
 Za sebe můžu slavnost velmi doporučit. Vloni jsme ji s mými dětmi absolvovali a byl to pro nás všechny krásný zážitek. Doufám, že se s vámi v pondělí setkám a společně oslavíme tento podzimno-zimní svátek. Pokud byste si chtěli o slavnostech přečíst něco více, podívejte se na web Waldorfské třídy [ZŠ Dědina](http://www.crea.cz/wzs-dedina/pedagogika/podzimni-slavnosti-martinska-slavnost) v Praze.
-Vendula Pospíšilová 
