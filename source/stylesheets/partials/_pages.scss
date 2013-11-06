@@ -128,10 +128,7 @@ div#sections {
 
   p:nth-child(n+2) {
     @include span-columns(6);
-  }
-
-  p:nth-child(n+3) {
-    @include omega;
+    @include shift(1);
   }
 
   div.vcard {
