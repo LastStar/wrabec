@@ -1,7 +1,7 @@
 div#teaser {
   @include span-columns(7);
 
-  padding: 0 0 1em 0;
+  padding: 0;
 }
 
 div#hot {
@@ -63,6 +63,7 @@ div#hot {
 
       &:last-child {
         border: none;
+        padding-bottom: 0;
       }
     }
   }
@@ -130,6 +131,15 @@ div#sections {
     @include span-columns(6);
     @include shift(1);
   }
+
+  p:nth-child(2) > img {
+    width: 144%;
+  }
+
+  p:last-child {
+    margin-bottom: 6em;
+  }
+
 
   div.vcard {
     @include span-columns(3);
