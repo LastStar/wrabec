@@ -23,8 +23,5 @@ gem "nokogiri"
 # Livereload
 gem "middleman-livereload", "~> 3.1.0"
 
-# Crush dems images
-gem "middleman-imageoptim", "~> 0.1.0"
-
 # JavaScript runtime
 gem 'therubyracer'
