@@ -1,6 +1,6 @@
 ---
 title: 'Sdružení registrováno'
-img: 'http://lorempixel.com/400/200/nature'
+img: '/images/blog_obecny.png'
 ---
 
 Dne 19. 9. 2013 bylo občanské sdružení Wrabec registrováno. [Wrabec je zapsán v seznamu OS](http://aplikace.mvcr.cz/seznam-obcanskych-sdruzeni/).
