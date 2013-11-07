@@ -1,11 +1,13 @@
 ---
 title: 'Pozvánka na Martinskou slavnost'
-img: 'http://lorempixel.com/400/200/nature'
+img: '/images/MartinskaSlavnost2013_thumb.png'
 ---
 
 Srdečně vás zveme na Martinskou slavnost, která se bude konat dne 11.11.2013.
 
 READMORE
+
+![Martinská slavnost v Lesmíru](/images/MartinskaSlavnost2013.png)
 
 Martinskou slavnost pořádá Liberecká lesní školka [Lesmír]( http://www.lesmir.cz), ve spolupráci s Wrabcem. Slavnost se koná dne 11.11.2013, sraz je v 16:00 u "Wolkeráku" v Lidových sadech ([viz mapka](http://www.mapy.cz/s/8Lpq)).
 
