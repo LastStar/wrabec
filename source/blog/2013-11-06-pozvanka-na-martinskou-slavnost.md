@@ -1,6 +1,6 @@
 ---
 title: 'Pozvánka na Martinskou slavnost'
-img: '/images/MartinskaSlavnost2013_thumb.png'
+img: '/images/MartinskaSlavnost2013_thumb.jpg'
 ---
 
 Srdečně vás zveme na Martinskou slavnost, která se bude konat dne 11.11.2013.
