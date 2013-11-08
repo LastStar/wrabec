@@ -1,6 +1,6 @@
 ---
 title: 'Wrabec návštívil Wlaštovku'
-img: '/images/blog_obecny.png'
+img: '/images/blog_obecny.jpg'
 ---
 
 Tereza s Vendulou se vydaly posbírat inspiraci do Karlových Varů.

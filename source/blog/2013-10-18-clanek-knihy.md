@@ -1,6 +1,6 @@
 ---
 title: 'Co číst dětem'
-img: '/images/blog_obecny_link.png'
+img: '/images/blog_obecny_link.jpg'
 ---
 
 Zajímavý článek z TheGuardian o tom, jaké knížky děti mohou číst.

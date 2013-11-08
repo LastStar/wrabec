@@ -1,6 +1,6 @@
 ---
 title: 'Podzimní slavnost stromů'
-img: '/images/SlavnostStromu2013_thumb.png'
+img: '/images/SlavnostStromu2013_thumb.jpg'
 ---
 
 Ve středu 16.10.2013 jsme oslavili rozpuk podzimu na Slavnosti stromů.

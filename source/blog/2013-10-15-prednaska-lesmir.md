@@ -1,6 +1,6 @@
 ---
 title: 'Pozvánka na přednášku'
-img: '/images/setkavani_rijen_thumb.png'
+img: '/images/setkavani_rijen_thumb.jpg'
 ---
 
 Jménem Liberecké lesní školky Lesmír vás zveme na přednášku Hany Hajnové.

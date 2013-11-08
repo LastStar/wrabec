@@ -1,6 +1,6 @@
 ---
 title: 'Stanovy podepsány'
-img: '/images/blog_obecny.png'
+img: '/images/blog_obecny.jpg'
 ---
 
 Začátkem září zakládající členové občanského sdružení Wrabec podepsali stanovy OS a odeslali je na příslušné úřady.
