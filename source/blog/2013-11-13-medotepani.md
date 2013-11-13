@@ -1,11 +1,11 @@
 ---
 title: 'Měďotepání 17.11.'
-img: '/images/Eurytmie.jpg'
+img: '/images/Eurytmie_thumb.jpg'
 ---
 
 Dne 17.11. si budeme tepat vlastní měděné tyčky na cvičení eurytmie.
-
 READMORE
+![Princezny při tanci](/images/Eurytmie.jpg)
 
 Dne 17.11. se v budově Lesmíru setkáme s panem Jiřím Moravcem měďotepcem. Objednaly jsme si u něj deset neopracovaných tyček a pod jeho vedením si je chceme samy tepat. Já jsem osobně ještě nikdy netepala. Janička Jasná říká, že je to těžká práce, u které vydržíme jen pár hodin.
 
