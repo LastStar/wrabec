@@ -1,6 +1,6 @@
 ---
 title: 'Přednáška v Lesmíru'
-img: '/images/blog_obecny.jpg'
+img: '/images/setkavani_s_WP_listopad.jpg'
 ---
 
 Jménem Lesmíru vás zveme na přednášku: Jak vychovávat dítě v prvních sedmi letech
