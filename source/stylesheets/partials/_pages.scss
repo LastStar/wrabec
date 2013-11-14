@@ -86,9 +86,8 @@ div#sections {
       @include linear-gradient($white 5%, $top-color 39%, $top-color 41%, $white 41%,
         $white 96%, $top-color 96%, $top-color 100%);
 
-      &:after {
-        content: "";
-      }
+      border: none;
+
     }
 
     img {
@@ -137,7 +136,7 @@ div#sections {
   }
 
   p:last-child {
-    margin-bottom: 6em;
+    @include page-margin;
   }
 
 
