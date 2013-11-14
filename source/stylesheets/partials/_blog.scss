@@ -1,29 +1,27 @@
-$small-title-text: 48px;
-
 .blog.main-row {
   article {
-    @include outer-container;
-    padding: 0.33em;
+    @include row;
+    @include pad(0 0 0.66em 0);
 
     div.text {
-      @include span-columns(8);
+      @include span-columns(7);
+      @include shift;
+      @include omega;
+
+      time {
+        @include span-columns(2 of 7);
+
+        font-size: $text;
+      }
 
       h2 {
+        @include span-columns(5 of 7);
+
         font-size: $bigger-text;
-
-        a {
-          @include span-columns(6 of 8);
-        }
-
-        time {
-          @include span-columns(2 of 8);
-          @include omega;
-        }
       }
 
       p {
-        @include span-columns(8 of 8);
-        @include omega;
+        @include span-columns(7 of 7);
       }
     }
 
@@ -40,6 +38,10 @@ $small-title-text: 48px;
     @include span-columns(6);
     @include shift(1);
 
+  }
+
+  & > p:last-child {
+    @include page-margin;
   }
 }
 

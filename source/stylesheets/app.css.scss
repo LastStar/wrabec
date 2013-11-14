@@ -18,6 +18,10 @@ $bigger-text: golden-ratio($text, 1);
 $small-title-text: golden-ratio($text, 2);
 $title-text: golden-ratio($text, 3);
 
+@mixin page-margin {
+  margin-bottom: 6em;
+}
+
 @include font-face(DederonSansLight, "Dederon_Sans_Light", normal);
 @include font-face(KatarineSemi, "Katarine_Semibold", bold);
 
