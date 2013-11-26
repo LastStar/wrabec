@@ -1,12 +1,12 @@
 ---
 title: 'Wrabec na dílničkách v Lidových Sadech 8.12.2013'
-img: '/blog_obecny'
+img: '/images/ls_thumb.jpg'
 ---
 
 Srdečně vás zveme na vánoční dílničky do Lidových Sadů dne 8.12.2013
 READMORE
 
-![Vánoční dílničky v Lidových Sadech](/images/ls_thumb.jpg)
+[<img src="/images/ls_thumb.jpg"/>](/images/ls.jpg)
 
 Dne 8.12.2013 se v Lidových Sadech konají [Vánoční dílničky](http://www.liberec-me-bavi.cz/cs/prakticke-info/liberec-pro-deti/liberec-prijdte-si-vytvorit-darecek-na-vanocni-dilny-v-lidovych-sadech.html).
 
