@@ -15,6 +15,7 @@ $bottom-color: rgb(204, 102, 0);
 $text: 14px;
 $small-text: golden-ratio($text, -1);
 $bigger-text: golden-ratio($text, 1);
+$big-text: golden-ratio($text, 2);
 $small-title-text: golden-ratio($text, 2);
 $title-text: golden-ratio($text, 3);
 
@@ -23,7 +24,7 @@ $title-text: golden-ratio($text, 3);
 }
 
 @include font-face(DederonSansLight, "Dederon_Sans_Light", normal);
-@include font-face(KatarineSemi, "Katarine_Semibold", bold);
+@include font-face(BistroScript, "BistroScript", bold);
 
 // Main general styles
 @import 'partials/main_style';
