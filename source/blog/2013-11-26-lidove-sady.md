@@ -1,5 +1,5 @@
 ---
-title: 'Wrabec na dílničkách v Lidových Sadech 8.12.2013'
+title: 'Dílničky v Lidových Sadech 8.12.2013'
 img: '/images/ls_thumb.jpg'
 ---
 

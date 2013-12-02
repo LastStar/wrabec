@@ -13,8 +13,7 @@ div#hot {
   }
 
   p.motto {
-    font-family: KatarineSemi;
-    font-size: $bigger-text;
+    font-size: $text;
     padding: 0 0 1em 0;
     border-bottom: thin solid $top-color;
 
@@ -22,6 +21,8 @@ div#hot {
       display: block;
       text-align: right;
       margin: 1em 0 0 0;
+      font-size: $bigger-text;
+      font-family: BistroScript;
     }
   }
 
@@ -45,8 +46,7 @@ div#hot {
           display: block;
           text-align: right;
           margin: 0.33em 0;
-          font-size: $text;
-          font-family: KatarineSemi;
+          font-size: $small-text;
         }
 
         h4 {
