@@ -73,10 +73,6 @@ $iphone-landscape: new-breakpoint(max-width 480px 4);
 }
 
 @include media($iphone-landscape) {
-  a:hover:after {
-    content: "" !important;
-  }
-
   div.header-row {
     header {
       h1 {
