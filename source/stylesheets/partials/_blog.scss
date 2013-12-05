@@ -1,32 +1,42 @@
 .blog.main-row {
   article {
     @include row;
-    @include pad(0 0 0.66em 0);
+
+    margin-bottom: 5em;
 
     div.text {
-      @include span-columns(7);
+      @include span-columns(8);
       @include shift;
-      @include omega;
-
-      time {
-        @include span-columns(2 of 7);
-
-        font-size: $text;
-      }
 
       h2 {
-        @include span-columns(5 of 7);
+        margin-top: 0;
+        margin-bottom: 0;
 
-        font-size: $bigger-text;
+        a {
+          @include span-columns(6 of 8);
+          @include omega;
+
+          font-size: $big-text;
+        }
+
+        time {
+          @include span-columns(2 of 8);
+          @include omega;
+          @include pad(0.5em 0 0 0);
+
+          font-size: $bigger-text;
+        }
       }
 
       p {
-        @include span-columns(7 of 7);
+        @include shift;
+        @include span-columns(6 of 8);
       }
     }
 
     img {
-      @include span-columns(4);
+      @include span-columns(3);
+      @include omega;
     }
 
     &:last-child {

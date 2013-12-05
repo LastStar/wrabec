@@ -6,8 +6,8 @@ body {
   margin: 0px;
 }
 
-h1, h2, h3, h4 {
-  font-family: KatarineSemi;
+h1, h2, h3 {
+  font-family: BistroScript;
 }
 
 h1 {
@@ -88,7 +88,6 @@ div.header-row {
       a {
         @include span-columns(1 of 4);
         font-size: $text;
-        font-family: KatarineSemi;
         color: $white;
         text-align: right;
 
