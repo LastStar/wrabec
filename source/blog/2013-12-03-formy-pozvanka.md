@@ -6,7 +6,7 @@ img: '/images/formy_picture.png'
 Srdečně vás zveme na lednový Seminář kreslení forem s Ing. Petrem Šimkem
 READMORE
 
-![XXX](/images/formy_plakat.png)
+![Formy](/images/formy_picture.png)
 
 Srdečně vás zveme na Seminář kreslení forem pod vedením Ing. Petra Šimka,  který o.s. Wrabec pořádá v průběhu ledna a února 2014 v Liberci.
 
@@ -20,11 +20,11 @@ Seminář se bude konat o třech sobotách v lednu a únoru od 9:00 do 15:00. Po
 
 **PŘIHLÁŠKY**:
 
-– 11.1.2014 (1.část): [Linie jako stopa pohybu]( https://docs.google.com/forms/d/1YQQ3ehzbt0qRgoSyYLRe3Dm1HRdnwD5ycWbR803rthY/viewform)
+- 11.1.2014 (1.část): [Linie jako stopa pohybu]( https://docs.google.com/forms/d/1YQQ3ehzbt0qRgoSyYLRe3Dm1HRdnwD5ycWbR803rthY/viewform)
 
-18.1.2014 (2.část): [Pohyb a proces jeho zvnitřňování]( https://docs.google.com/forms/d/15E9QMKEIa4xdPz8-wx4s1cpDnqFnkk4GbHlPG6pX4Uc/viewform)
+- 18.1.2014 (2.část): [Pohyb a proces jeho zvnitřňování]( https://docs.google.com/forms/d/15E9QMKEIa4xdPz8-wx4s1cpDnqFnkk4GbHlPG6pX4Uc/viewform)
 
-–	1.2. 2014 (3.část): [Cesta k tvůrčímu vědomí]( https://docs.google.com/forms/d/18ApBr6dNlU7vuhJbg1oBmbSzohhJ17d9DnzmX85joqk/viewform)
+-	1.2. 2014 (3.část): [Cesta k tvůrčímu vědomí]( https://docs.google.com/forms/d/18ApBr6dNlU7vuhJbg1oBmbSzohhJ17d9DnzmX85joqk/viewform)
 
 Pokud se chcete o kreslení forem dozvědět více, podívejte se na příspěvek o dalších zajímavostech týkajících se forem. V blogu také vyjde překlad části článku paní Rosemary Gebert na téma Kreslení forem ve waldorfských školách.
 
