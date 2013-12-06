@@ -8,7 +8,7 @@ $top-color: rgb(204, 153, 0);
 $grey: rgb(255, 253, 242);
 $white: rgb(255, 253, 252);
 $black: rgb(51, 51, 0);
-$link-color: rgb(102, 51, 0);
+$link-color: rgb(0, 82, 163);
 $bottom-color: rgb(204, 102, 0);
 
 // text sizes
@@ -23,7 +23,8 @@ $title-text: golden-ratio($text, 3);
   margin-bottom: 6em;
 }
 
-@include font-face(DederonSansLight, "Dederon_Sans_Light", normal);
+@include font-face(DederonSerif, "Dederon_Serif_Light", normal);
+@include font-face(DederonSerif, "Dederon_Serif_Semibold", bold);
 @include font-face(BistroScript, "BistroScript", bold);
 
 // Main general styles

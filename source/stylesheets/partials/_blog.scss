@@ -44,10 +44,24 @@
     }
   }
 
-  & > p  {
+  & > p, ul, h3, h4  {
     @include span-columns(6);
     @include shift(1);
 
+  }
+
+  & > h3, h4 {
+    margin-top: 0.33em;
+    margin-bottom: 0;
+  }
+
+  & > ul {
+    margin-top: 0.33em;
+
+    li {
+      font-weight: bold;
+      list-style: none;
+    }
   }
 
   & > p:last-child {
