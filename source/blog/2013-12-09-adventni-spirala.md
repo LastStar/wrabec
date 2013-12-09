@@ -1,6 +1,6 @@
 ---
-title: ‘Adventní spirála’
-img: '/images/spiral_light.jpg’
+title: Adventní spirála
+img: '/images/spiral_light.jpg'
 ---
 
 Srdečně vás zveme na slavnost Adventní spirály dne 16.12.2013
