@@ -1,6 +1,6 @@
 ---
-title: ‘Waldorfské tvoření’
-img: '/images/blog_obecny_link.jpg’
+title: Waldorfské tvoření
+img: '/images/blog_obecny_link.jpg'
 ---
 
 Srdečně vás zveme na předvánoční setkání s dílničkami v MŠ Jizerka dne 12.12.2013
